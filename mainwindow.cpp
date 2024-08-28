@@ -60,10 +60,36 @@ void MainWindow::Paste()
 
 void MainWindow::LoadFile()
 {
-    QMessageBox::information(this, "Load", "loadされました");
+    // QMessageBox::information(this, "Load", "loadされました");
+    QString fileName = QFileDialog::getOpenFileName(this, "Load File", "", "Text Files (*.txt);;All Files (*)");
+    if(fileName.isEmpty())
+        return;
+    QFile file(fileName);
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+    {
+        QMessageBox::critical(this, "エラー", "ファイルの読み込みに失敗しました");
+        return;
+    }
+    QTextStream in(&file);
+    QString text = in.readAll();
+    ui->textdata->setPlainText(text);
+    file.close();
+    QMessageBox::information(this, "ロード完了", "読み込みに成功しました");
 }
 
 void MainWindow::SaveFile()
 {
-    QMessageBox::information(this, "Save", "saveされました");
+    QString fileName = QFileDialog::getSaveFileName(this, "Save File", "", "Text Files (*.txt);;All Files (*)");
+    if(fileName.isEmpty())
+        return;
+    QFile file(fileName);
+    if(!file.open(QIODevice::WriteOnly | QIODevice::Text))
+    {
+        QMessageBox::critical(this, "エラー", "ファイルのセーブに失敗しました");
+        return;
+    }
+    QTextStream out(&file);
+    out << ui->textdata->toPlainText();
+    file.close();
+    QMessageBox::information(this, "セーブ完了", "セーブに成功しました");
 }

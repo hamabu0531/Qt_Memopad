@@ -7,6 +7,9 @@
 #include <QToolBar>
 #include <QAction>
 #include <QMessageBox>
+#include <QFile>
+#include <QFileDialog>
+#include <QTextStream>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
