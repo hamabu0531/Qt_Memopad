@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-93dcaa02dab6484c21b7.json",
+					"jsonFile" : "directory-.-Debug-fae1994c66fa74786717.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoPad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoPad-Debug-f062e47c702bde215269.json",
+					"jsonFile" : "target-MemoPad-Debug-9da777dcf65c440b6de3.json",
 					"name" : "MemoPad",
 					"projectIndex" : 0
 				},
