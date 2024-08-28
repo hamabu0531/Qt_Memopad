@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPlainTextEdit" name="Textdata">
+   <widget class="QPlainTextEdit" name="textdata">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -50,6 +50,7 @@
     </property>
     <addaction name="actionCut"/>
     <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
     <addaction name="actionDuplicate"/>
     <addaction name="separator"/>
     <addaction name="actionSelect_All"/>
@@ -102,6 +103,11 @@
   <action name="actionDeselect">
    <property name="text">
     <string>Deselect</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
    </property>
   </action>
  </widget>

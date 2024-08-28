@@ -1,0 +1,9 @@
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/MemoPad.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/edit_cache.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/rebuild_cache.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/list_install_components.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/install.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/install/local.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/install/strip.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/MemoPad_autogen_timestamp_deps.dir
+C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Profile/CMakeFiles/MemoPad_autogen.dir

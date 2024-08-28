@@ -22,6 +22,16 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_pushButton_clicked();
+    void Select_All();
+    void DeSelect();
+    void Cut();
+    void Copy();
+    void Paste();
+    void SaveFile();
+    void LoadFile();
+
 private:
     Ui::MainWindow *ui;
 };
