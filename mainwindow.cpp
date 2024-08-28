@@ -7,6 +7,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QString cTemplate = "#include <stdio.h>\n\nvoid main(){\n\n}\n";
+    ui->textdata->setPlainText(cTemplate);
 
     // QActionの管理
     connect(ui->actionExit, &QAction::triggered, this, &MainWindow::close);
@@ -62,7 +64,7 @@ void MainWindow::Paste()
 void MainWindow::LoadFile()
 {
     // QMessageBox::information(this, "Load", "loadされました");
-    QString fileName = QFileDialog::getOpenFileName(this, "Load File", "", "Text Files (*.txt);;All Files (*)");
+    QString fileName = QFileDialog::getOpenFileName(this, "Load File", "", "C Files (*.c);;All Files (*)");
     if(fileName.isEmpty())
         return;
     QFile file(fileName);
@@ -80,7 +82,7 @@ void MainWindow::LoadFile()
 
 void MainWindow::SaveFile()
 {
-    QString fileName = QFileDialog::getSaveFileName(this, "Save File", "", "Text Files (*.txt);;All Files (*)");
+    QString fileName = QFileDialog::getSaveFileName(this, "Save File", "", "C Files (*.c);;All Files (*)");
     if(fileName.isEmpty())
         return;
     QFile file(fileName);
@@ -97,5 +99,6 @@ void MainWindow::SaveFile()
 
 void MainWindow::NewProject()
 {
-    ui->textdata->setPlainText("");
+    QString cTemplate = "#include <stdio.h>\n\nvoid main(){\n\n}\n";
+    ui->textdata->setPlainText(cTemplate);
 }
