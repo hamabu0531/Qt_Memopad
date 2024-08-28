@@ -59,3 +59,11 @@
 821	2957	7465310146238962	CMakeFiles/MemoPad.dir/main.cpp.obj	f1438fe53ebf4257
 824	3375	7465310146238962	CMakeFiles/MemoPad.dir/mainwindow.cpp.obj	b0a2fc8d4647ca50
 3375	3568	7465310171737833	MemoPad.exe	edfec70a641e6424
+45	786	7465516180508398	MemoPad_autogen/timestamp	69c8a08b05fe787b
+45	786	7465516180508398	MemoPad_autogen/mocs_compilation.cpp	69c8a08b05fe787b
+45	786	7465516180508398	C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/MemoPad_autogen/timestamp	69c8a08b05fe787b
+45	786	7465516180508398	C:/Users/hamab/Qt/MemoPad/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/MemoPad_autogen/mocs_compilation.cpp	69c8a08b05fe787b
+787	3268	7465516181211848	CMakeFiles/MemoPad.dir/MemoPad_autogen/mocs_compilation.cpp.obj	896604afe6c21ae
+791	3273	7465516181257333	CMakeFiles/MemoPad.dir/main.cpp.obj	f1438fe53ebf4257
+795	3677	7465516181297537	CMakeFiles/MemoPad.dir/mainwindow.cpp.obj	b0a2fc8d4647ca50
+3677	3946	7465516210112466	MemoPad.exe	edfec70a641e6424

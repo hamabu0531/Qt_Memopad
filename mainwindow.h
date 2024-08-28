@@ -34,6 +34,7 @@ private slots:
     void Paste();
     void SaveFile();
     void LoadFile();
+    void NewProject();
 
 private:
     Ui::MainWindow *ui;

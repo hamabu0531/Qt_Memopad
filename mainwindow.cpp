@@ -17,6 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->actionPaste, &QAction::triggered, this, &MainWindow::Paste);
     connect(ui->actionSave, &QAction::triggered, this, &MainWindow::SaveFile);
     connect(ui->actionLoad, &QAction::triggered, this, &MainWindow::LoadFile);
+    connect(ui->actionNew, &QAction::triggered, this, &MainWindow::NewProject);
 
 }
 
@@ -92,4 +93,9 @@ void MainWindow::SaveFile()
     out << ui->textdata->toPlainText();
     file.close();
     QMessageBox::information(this, "セーブ完了", "セーブに成功しました");
+}
+
+void MainWindow::NewProject()
+{
+    ui->textdata->setPlainText("");
 }
